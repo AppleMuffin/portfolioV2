@@ -1,0 +1,44 @@
+//about section styling
+.aboutMe {
+  display: flex;
+
+  a {
+    color: $darkCaramel;
+    font-weight: 400;
+    transition: 0.2s linear all;
+
+    &:hover {
+      color: $darkOlive;
+    }
+  }
+}
+
+.aboutText {
+  flex-basis: 65%;
+
+  h3 {
+    width: 65%;
+  }
+
+  h3,
+  p {
+    padding: 10px;
+  }
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 35%;
+
+  img {
+    border-radius: 50%;
+    border: 4px solid $darkCaramel;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+
+//about section end styling

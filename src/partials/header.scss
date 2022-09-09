@@ -1,0 +1,19 @@
+.hero {
+  padding-top: 50px;
+  background-color: $cream;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1,
+  p {
+    text-align: center;
+    color: $darkOlive;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+}

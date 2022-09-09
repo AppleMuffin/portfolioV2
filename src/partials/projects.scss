@@ -1,0 +1,72 @@
+// projects styling
+ul.projectList {
+  padding: 20px 0;
+
+  li {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+
+    .projectImg {
+      flex-basis: 45%;
+
+      img {
+        border: 3px solid $darkCaramel;
+        border-radius: 5px;
+        max-width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+ul.projectList {
+  li {
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.projectDesc {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    padding: 20px 0;
+  }
+
+  p {
+    padding: 10px 0;
+  }
+
+  .projectLinks {
+    display: flex;
+
+    a {
+      padding-right: 20px;
+      font-weight: 400;
+      color: $darkOlive;
+      transition: 0.2s linear all;
+
+      &:hover {
+        color: $darkCaramel
+      }
+    }
+  }
+
+  .skillsUsed {
+    display: flex;
+
+    p {
+      color: $cream;
+      margin: 10px 10px 10px 0;
+      padding: 10px;
+      background-color: $olive;
+    }
+  }
+}
+
+
+// projects styling end

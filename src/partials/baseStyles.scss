@@ -1,0 +1,122 @@
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  color: $darkOlive;
+  font-size: 1.6rem;
+  font-family: 'PT Serif', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $cream;
+
+}
+
+h2 {
+  font-size: 3rem;
+  padding: 15px 0;
+  margin: 0;
+}
+
+h1,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  color: $darkOlive;
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: 'PT Serif', serif;
+}
+
+h2,
+footer p {
+  text-align: center;
+}
+
+section {
+  padding: 20px 0;
+}
+
+section,
+footer {
+  border-top: 1px solid $darkCaramel;
+}
+
+section p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.skills,
+.contact {
+  background-color: $cream;
+}
+
+.about,
+.projects,
+footer {
+  background-color: $lightCaramel;
+}
+
+
+
+// //slideshow animations
+// .headerImg{
+//   opacity: 0;
+//   transition: 1s linear all;
+// }
+
+// .headerImg.slideshow {
+//   opacity: 1;
+// }
+
+// //slideshow end
+
+// //js scroll animations
+// .jsScroll {
+//   z-index: 0;
+//   opacity: 0;
+
+// }
+
+// .jsScroll.scrolled {
+//   opacity: 1;
+//   animation: slide-in-right 0.7s ease-in-out both;
+// }
+
+// @keyframes slide-in-right {
+//   0% {
+//     transform: translateX(100px);
+//     opacity: 0;
+//   }
+
+//   100% {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }

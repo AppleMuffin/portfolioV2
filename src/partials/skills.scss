@@ -1,0 +1,23 @@
+//skills styling
+.skills {
+  ul {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    p {
+      padding: 10px 0;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    i {
+      flex-wrap: wrap;
+      padding: 10px;
+      font-size: 8rem;
+    }
+  }
+}
+
+//skills styling end

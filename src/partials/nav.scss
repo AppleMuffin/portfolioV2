@@ -1,0 +1,38 @@
+nav {
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $olive;
+  color: $cream;
+  display: flex;
+  align-items: center;
+  height: 70px;
+
+  .logo {
+    padding: 10px 10px 10px 15px;
+    flex-grow: 2;
+    transition: 0.3s linear all;
+
+    &:hover {
+      color: $caramel;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      padding: 10px;
+
+      a {
+        transition: 0.3s linear all;
+
+        &:hover {
+          color: $caramel;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+//contact styles
+.contact {
+  .socials a {
+    color: $darkOlive;
+    transition: 0.2s linear all;
+
+    &:hover {
+      color: $darkCaramel
+    }
+  }
+}
+
+.contactText {
+  flex-basis: 50%;
+
+  h3 {
+    padding-bottom: 20px;
+  }
+}
+
+.contactBox {
+  display: flex;
+  padding-top: 15px;
+}
+
+form {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+
+  textarea {
+    margin-bottom: 10px;
+    background-color: $cream;
+    border: 1px $darkOlive solid;
+    resize: none;
+  }
+
+  button {
+    background-color: $olive;
+    color: $cream;
+    border: none;
+    padding: 10px 0;
+
+    &:active {
+      background-color: $darkCaramel;
+    }
+  }
+
+  .nameEmail {
+    display: flex;
+    margin-bottom: 10px;
+
+    input {
+      padding: 5px;
+      width: 50%;
+      background-color: $cream;
+      background-color: $cream;
+      border: 1px $darkOlive solid;
+    }
+
+    input[type=text] {
+      margin-right: 5px;
+    }
+
+    input[type=email] {
+      margin-left: 5px;
+      ;
+    }
+
+  }
+
+
+}
+
+.socials {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  font-size: 3rem;
+
+  i {
+    padding: 10px;
+    align-self: flex-end;
+  }
+
+}
+
+// end contact styles

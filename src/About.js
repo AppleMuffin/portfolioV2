@@ -1,3 +1,5 @@
+import me from './me.jpg'
+
 const About = () => {
   return(
     <section className="about" id="about">
@@ -15,7 +17,7 @@ const About = () => {
               <p>In my spare time, you can find me woodworking, weight lifting at the gym, trying (in vain) to find a group to play Dungeons & Dragons, or working on programming side projects.</p>
           </div>
         <div className="me">
-          <img src="./assets/pictures/IMG-20210829-WA0028__01.jpg" alt="" />
+          <img src={me} alt="a portrait of me" />
         </div>
       </div>
     </div>

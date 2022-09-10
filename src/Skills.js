@@ -1,43 +1,49 @@
+import { DiHtml5, DiCss3, DiJavascript1, DiJqueryLogo,  } from "react-icons/di";
+import { SiFirebase } from "react-icons/si";
+import { FaSass, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
+
+const style = { color: "#606c38", fontSize:"4rem"}
 const Skills = () => {
   return (
+    
     <section className="skills" id="skills">
       <div className="wrapper">
         <h2>Skills</h2>
         <ul className="skillset">
           <li>
-            <i className="devicon-html5-plain-wordmark colored"></i>
+            <DiHtml5 style={style}/>
             <p>HTML 5</p>
           </li>
           <li>
-            <i className="devicon-css3-plain-wordmark colored"></i>
+            <DiCss3 style={style}/>
             <p>CSS 3</p>
           </li>
           <li>
-            <i className="devicon-javascript-plain colored"></i>
+            <DiJavascript1 style={style}/>
             <p>JavaScript</p>
           </li>
           <li>
-            <i className="devicon-jquery-plain-wordmark colored"></i>
+            <DiJqueryLogo style={style}/>
             <p>jQuery</p>
           </li>
           <li>
-            <i className="devicon-sass-original colored"></i>
+            <FaSass style={style}/>
             <p>Sass</p>
           </li>
           <li>
-            <i className="devicon-firebase-plain-wordmark colored"></i>
+            <SiFirebase style={style}/>
             <p>Firebase</p>
           </li>
           <li>
-            <i className="devicon-react-original-wordmark colored"></i>
+            <FaReact style={style}/>
             <p>React</p>
           </li>
           <li>
-            <i className="devicon-git-plain-wordmark colored"></i>
+            <FaGitAlt style={style}/>
             <p>Git</p>
           </li>
           <li>
-            <i className="devicon-github-original-wordmark colored"></i>
+            <FaGithub style={style}/>
             <p>GitHub</p>
           </li>
         </ul>

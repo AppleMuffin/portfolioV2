@@ -20,4 +20,13 @@
   }
 }
 
+.skillset {
+  li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%;
+  }
+}
 //skills styling end

@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+  ul.projectList li:nth-child(odd) {
+    flex-direction: column-reverse;
+    img {
+      margin-top: 15px;
+    }
+  }
+
+  ul.projectList li:nth-child(even) {
+    flex-direction: column-reverse;
+    img {
+        margin-top: 15px;
+      }
+  }
+
+  .aboutMe {
+    flex-direction: column-reverse;
+  }
+
+  .contactBox {
+    flex-direction: column;
+  }
+
+  
+}
+@media (max-width: 600px) {
+// ! add burger nav bar here
+}
+
+@media (max-width: 600px) {
+  .skillset {
+    li {
+      flex-basis: 50%;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .skillsUsed {
+      flex-direction: column;
+  }
+
+  
+
+}

@@ -16,13 +16,9 @@
 .aboutText {
   flex-basis: 65%;
 
-  h3 {
-    width: 65%;
-  }
-
   h3,
   p {
-    padding: 10px;
+    padding: 20px 10px;
   }
 }
 
@@ -31,6 +27,7 @@
   justify-content: center;
   align-items: center;
   flex-basis: 35%;
+ 
 
   img {
     border-radius: 50%;
@@ -38,6 +35,8 @@
     height: 300px;
     width: 300px;
     object-fit: cover;
+    object-position: 0px -30px;
+   
   }
 }
 

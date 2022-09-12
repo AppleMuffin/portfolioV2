@@ -1,4 +1,5 @@
 import me from './me.jpg'
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return(
@@ -12,7 +13,7 @@ const About = () => {
             <p>
               I have past experience in consulting, specializing in environment and sustainability. With my past 3 years experience
               leading successful projects for clients across Canada, I'm an extremely flexible individual who vies for challenging
-              problems. If you have need of my services, feel free to <span><a href="#contact">reach out!</a></span></p>
+              problems. If you have need of my services, feel free to <Link to="/contact">reach out!</Link> </p>
 
               <p>In my spare time, you can find me woodworking, weight lifting at the gym, trying (in vain) to find a group to play Dungeons & Dragons, or working on programming side projects.</p>
           </div>

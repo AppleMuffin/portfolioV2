@@ -23,9 +23,7 @@
 
   
 }
-@media (max-width: 600px) {
-// ! add burger nav bar here
-}
+
 
 @media (max-width: 600px) {
   .skillset {
@@ -33,7 +31,21 @@
       flex-basis: 50%;
     }
   }
+
+  nav.mobileNav {
+    width: 70vw;
+    li {
+      font-size: 2rem;
+      margin: 20px 0;
+      a {
+        font-size: 2rem;
+        margin: 0;
+      }
+    }
+  }
 }
+
+
 @media (max-width: 400px) {
   .skillsUsed {
       flex-direction: column;

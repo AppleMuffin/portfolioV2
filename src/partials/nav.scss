@@ -11,7 +11,7 @@ nav.desktopNav {
   ul {
     display: flex;
     flex-grow: 2;
-    justify-content: end;
+    justify-content: flex-end;
     li.home {
       flex-grow: 2;
     }

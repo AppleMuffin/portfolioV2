@@ -6,6 +6,24 @@ const Projects = () => {
         <ul className="projectList">
           <li>
             <div className="projectImg">
+              <img src="./assets/quickFlickPicker.png" alt="QuickFlickPicker, an app that allows you to create lists and save movies." />
+            </div>
+            <div className="projectDesc">
+              <h3>Quick Flick Picker</h3>
+              <p>Quick Flick Picker utilizes The Movie Database API and Google Firebase to allow users to find 800,000+ movies and save them to user-made lists. </p>
+              <div className="projectLinks">
+                <p><a href="https://quickflickpicker.netlify.app/">Live</a></p>
+                <p><a href="https://github.com/Quick-Flick-Picker-Cohort-42/quick-flick">GitHub</a></p>
+              </div>
+              <ul className="skillsUsed">
+                <p>HTML 5</p>
+                <p>CSS 3</p>
+                <p>JavaScript</p>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div className="projectImg">
               <img src="./assets/pictures/recipeRandomizer.png" alt="Recipe Randomizer, an app that provides randomized recipes based on user selection preferences." />
             </div>
             <div className="projectDesc">

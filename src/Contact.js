@@ -1,5 +1,5 @@
 import Form from "./Form";
-
+import { FaFacebookF, FaLinkedin, FaGithub, FaMediumM } from 'react-icons/fa';
 const Contact = () => {
   return(
     <section className="contact" id="contact">
@@ -12,16 +12,16 @@ const Contact = () => {
             <p>Got a question? Let's chat! you can reach me at jeremy4322@gmail.com, through any of the social links below, or you can ask a question.</p>
             <ul className="socials">
               <a href="https://www.facebook.com/jeremy.chai.7/">
-                <i className="fa-brands fa-facebook"></i>
+                <FaFacebookF />
               </a>
               <a href="https://www.linkedin.com/in/jeremy-chai-9a7b9381/">
-                <i className="fa-brands fa-linkedin-in"></i>
+                <FaLinkedin />
               </a>
               <a href="https://github.com/AppleMuffin">
-                <i className="fa-brands fa-github"></i>
+                <FaGithub />
               </a>
               <a href="https://medium.com/@AppleMuffin">
-                <i className="fa-brands fa-medium"></i>
+                <FaMediumM />
               </a>
             </ul>
           </div>

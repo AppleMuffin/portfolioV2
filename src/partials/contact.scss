@@ -1,6 +1,8 @@
 //contact styles
 .contact {
+  min-height: 92vh;
   .socials a {
+    padding: 15px;
     color: $darkOlive;
     transition: 0.2s linear all;
 
@@ -20,6 +22,7 @@
 
 .contactBox {
   display: flex;
+  flex-direction: column;
   padding-top: 15px;
 }
 

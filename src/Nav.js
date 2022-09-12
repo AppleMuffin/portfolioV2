@@ -1,21 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav>
-      <a href="#home" className="logo">
-        Home
-      </a>
+      <Link to="/">Home</Link>
       <ul className="links">
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <Link to="/skills">Skills</Link>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

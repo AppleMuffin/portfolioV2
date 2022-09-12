@@ -1,5 +1,9 @@
 //skills styling
 .skills {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  
   ul {
     padding: 20px 0;
     display: flex;

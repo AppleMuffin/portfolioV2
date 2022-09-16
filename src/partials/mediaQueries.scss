@@ -51,6 +51,17 @@
       flex-direction: column;
   }
 
+  form .nameEmail {
+    flex-direction: column;
+    input {
+      width: 100%;
+    }
+
+    input[type=email] {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  }
   
 
 }

@@ -48,6 +48,7 @@ ul.projectList {
     display: flex;
 
     a {
+      text-decoration: underline;
       padding-right: 20px;
       font-weight: 400;
       color: $darkOlive;

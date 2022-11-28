@@ -1,0 +1,29 @@
+.skills {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.skills ul {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills ul p {
+  padding: 10px 0;
+  font-weight: 300;
+  text-align: center;
+}
+.skills ul i {
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 8rem;
+}
+
+.skillset li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 30%;
+}/*# sourceMappingURL=skills.css.map */

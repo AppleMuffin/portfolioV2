@@ -1,72 +1,57 @@
 @media (max-width: 900px) {
   ul.projectList li:nth-child(odd) {
     flex-direction: column-reverse;
-    img {
-      margin-top: 15px;
-    }
   }
-
+  ul.projectList li:nth-child(odd) img {
+    margin-top: 15px;
+  }
   ul.projectList li:nth-child(even) {
     flex-direction: column-reverse;
-    img {
-        margin-top: 15px;
-      }
   }
-
+  ul.projectList li:nth-child(even) img {
+    margin-top: 15px;
+  }
   .aboutMe {
     flex-direction: column-reverse;
   }
-
   .contactBox {
     flex-direction: column;
   }
-
-  
 }
-
-
 @media (max-width: 600px) {
-  .skillset {
-    li {
-      flex-basis: 50%;
-    }
+  .skillset li {
+    flex-basis: 50%;
   }
   div.menuButton {
     display: flex;
   }
   nav.mobileNav {
     width: 70vw;
-    li {
-      font-size: 2rem;
-      margin: 20px 0;
-      a {
-        font-size: 2rem;
-        margin: 0;
-      }
-    }
+  }
+  nav.mobileNav li {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  nav.mobileNav li a {
+    font-size: 2rem;
+    margin: 0;
   }
   .menuNav {
     display: none;
   }
 }
-
-
 @media (max-width: 400px) {
   .skillsUsed {
-      flex-direction: column;
+    flex-direction: column;
   }
-
   form .nameEmail {
     flex-direction: column;
-    input {
-      width: 100%;
-    }
-
-    input[type=email] {
+  }
+  form .nameEmail input {
+    width: 100%;
+  }
+  form .nameEmail input[type=email] {
     margin-top: 10px;
     margin-left: 0;
   }
-  }
-  
-
-}
+}/*# sourceMappingURL=mediaQueries.css.map */

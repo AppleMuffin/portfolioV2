@@ -1,0 +1,12 @@
+.menuNav {
+  ul {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: $darkOlive;
+    justify-content: end;
+    a {
+      padding: 12px;
+    }
+  }
+}
